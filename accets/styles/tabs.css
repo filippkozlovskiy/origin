@@ -1,0 +1,93 @@
+.content {
+max-width: calc(1170px + 15px *2);
+padding: 0 15px;
+margin: 0 auto;
+}
+
+.tabs {
+    padding: 99px 0 50px;
+    min-height: 100vh;
+}
+
+.tabs--header {
+    list-style: none;
+    font-size: 0px;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.tabs--header-button {
+    width: 184px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #C6CBCD;
+    text-transform: uppercase;
+}
+
+.active {
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+    width: 203px;
+}
+
+.tabs--header-line {
+    border-bottom: 1px solid #C6CBCD;
+    width: calc(100% - (184px * 2) - 203px);
+    vertical-align: bottom;
+}
+
+.tabs--content {
+    border: 1px solid #C6CBCD;
+    border-top: none;
+    text-align: end;
+}
+
+.tabs--content-about {
+    display: inline-block;
+    max-width: 570px;
+    width: 100%;
+    vertical-align: top;
+    text-align: start;
+    padding: 32px 0 0;
+}
+
+.tabs--about-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.tabs--about-description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.tabs--about-button {
+    width: 270px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    background-color: #EC7979;
+    border: none;
+    outline: none;
+    margin: 27px 0 0;
+}
+
+img {
+    margin: 0 0 0 30px;
+}
