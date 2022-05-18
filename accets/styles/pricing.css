@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pricing {
+    background-color: #F5F5F5;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: calc(1170px + 15px *2);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.pricing--title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: calc((150px - 42px) / 2) 0;
+}
+
+.pricing--separator {
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    border: none;
+    margin: 0 auto;
+}
+
+.pricing--description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    padding: 40px 0 0;
+}
+
+.pricing--offers {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing--offers-card {
+    list-style: none;
+    padding: 79px 0 50px;
+    min-width: 370px;
+}
+
+.pricing--offers--card-center {
+    list-style: none;
+    padding: 59px 0 50px;
+    min-width: 370px;
+    margin: 0 30px;
+}
+
+.pricing--offers-type {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    background-color: #333333;
+    text-align: center;
+    border-bottom: 2px solid #F5F5F5;
+    padding: calc((60px - 33px) / 2) 0;
+}
+
+.pricing--offers-price {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    background-color: #333333;
+    text-align: center;
+    border-bottom: 2px solid #F5F5F5;
+    padding: calc((100px - 42px) / 2) 0;
+}
+
+.pricing--offers-description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #333333;
+    text-align: center;
+    border-bottom: 2px solid #F5F5F5;;
+    padding: calc((50px - 21px) / 2) 0;    
+}
+
+.pricing--offers-option {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-transform: capitalize;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-bottom: 2px solid #F5F5F5;;
+    padding: calc((50px - 21px) / 2) 0; 
+}
