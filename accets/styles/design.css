@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.design {
+    background-image: url(/accets/images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    max-width: calc(1170 + 15px * 2);
+    min-height: 442px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.design--title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 104px 0 54px;
+}
+
+.design--line {
+    width: 170px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.design--description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 40px 0 0;
+}
+
+.design--button {
+    width: 370px;
+    height: 58px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 73px auto 0;
+    position: absolute;
+    left: calc(50% - 185px);
+}
